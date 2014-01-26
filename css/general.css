@@ -1,0 +1,76 @@
+/* CSS Document */
+
+html {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+    background-image:url('background/dimension.png') repeat; background-color:#99e0c8;
+} 
+
+h1 {
+    text-decoration:overline;
+    color:#2e6653;
+    font-family: Impact, "Charcoal", serif; 
+    font-size: 2.75
+        rem; /* 1 rem = 16px */
+    font-weight: normal;
+}
+
+h2 {
+    color: #5a6d67;
+    font-family: Arial Black, "Gadget", serif; 
+    font-size: 1.25rem; /* 1 rem = 16px */
+    font-weight: normal;
+}
+
+p, 
+li {
+    font-size:1rem;
+    line-height: 1.25rem;
+}
+
+h1 + p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+p {font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+    border: solid 4px #7fcfb4;
+}
+
+h3 {
+    color: #228c68;
+    font-family: Arial Black, "Gadget", serif; 
+    font-size: 1.25rem; /* 1 rem = 16px */
+    font-weight: normal;
+}
+
+ul, 
+ol {
+    background-color: #dafaef;
+}
+
+li {
+    color: #2e6653;
+}
+
+ol li:first-child {
+    background-color: #000;
+}
+    
+ol li:last-child {
+    background-color:#F90;
+}
