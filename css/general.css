@@ -5,7 +5,8 @@ html {
 body {
 background-color:#99e0c8;
     border-top: 8px dotted #2e6653;
-} 
+    border-bottom: 8px dotted #2e6653;
+}
 
 h1 {
     text-decoration:overline;
